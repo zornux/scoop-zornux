@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0-rc.1",
+  "description": "The English-readable programming language",
+  "homepage": "https://zornux.dev",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.1/zornux-1.0.0-rc.1-win-x64.zip",
+      "hash": "b1d187d6faa5298cc40f920d0fbd76610e001c2e7d24f2fe5e4c7065eeb2c08b"
+    },
+    "arm64": {
+      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.1/zornux-1.0.0-rc.1-win-arm64.zip",
+      "hash": "88626038eb4c992a570fda4dc026da471e413cbc903218fa4607cc049b8ce7d1"
+    }
+  },
+  "bin": "zornux.exe",
+  "checkver": {
+    "github": "https://github.com/zornux/zornux"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/zornux/zornux/releases/download/v$version/zornux-$version-win-x64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/zornux/zornux/releases/download/v$version/zornux-$version-win-arm64.zip"
+      }
+    }
+  }
+}
