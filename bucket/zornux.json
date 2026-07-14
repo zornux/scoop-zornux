@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0-rc.11",
+  "version": "1.0.0-rc.12",
   "description": "The English-readable programming language",
   "homepage": "https://zornux.dev",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.11/zornux-1.0.0-rc.11-win-x64.zip",
-      "hash": "a90b559107d13fc20505d5143f0db5fee7ec8e83b3ef09a456d437ad4cbcf97d"
+      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.12/zornux-1.0.0-rc.12-win-x64.zip",
+      "hash": "ab3fa7c2734945319fc21cdf7a43102d2527a97c45049559bdc76542f5ec058c"
     },
     "arm64": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.11/zornux-1.0.0-rc.11-win-arm64.zip",
-      "hash": "e7f686562fdb420a98867cb924bbd15c7f7542a37c68615c10873b9b4ca4c52a"
+      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0-rc.12/zornux-1.0.0-rc.12-win-arm64.zip",
+      "hash": "1f855dd141fc21c99d91789dbe36dfd83367fd9b4c0384a7292699e81c88af0e"
     }
   },
   "bin": "zornux.exe",
