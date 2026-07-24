@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The English-readable programming language",
   "homepage": "https://zornux.dev",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0/zornux-1.0.0-win-x64.zip",
-      "hash": "0ee36762fd0c3e4ed72c846b5288a9548eb3f9de49e50b30c72363b797e81df5"
+      "url": "https://github.com/zornux/zornux/releases/download/v1.1.0/zornux-1.1.0-win-x64.zip",
+      "hash": "060a4897b635e0aaa0bf23d3b31a778ee6b05494ad5cb781daf0a6054f94b324"
     },
     "arm64": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.0.0/zornux-1.0.0-win-arm64.zip",
-      "hash": "0ea146fef799111b2aa50d0cb38bafad304469d2b5824da8205f4ae65447d36f"
+      "url": "https://github.com/zornux/zornux/releases/download/v1.1.0/zornux-1.1.0-win-arm64.zip",
+      "hash": "0366e7184371bcf10c5a67e24baeb6879a1f91e69bbd2536dab2dbbdab22e9c4"
     }
   },
   "bin": "zornux.exe",
