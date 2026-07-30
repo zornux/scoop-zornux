@@ -5,25 +5,25 @@
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.2.0/zornux-1.2.0-win-x64.zip",
-      "hash": "cfe87f5e48284baca4e3b26dcb08ca5625b4fe68012a63338a905da264eb9d13"
+      "url": "https://github.com/zornux/zornux-dist/releases/download/v1.2.0/zornux-1.2.0-win-x64.zip",
+      "hash": "d7f3f5e57b656108d3c1dc2784c44ec315841d88367dcc23cc81bc1eca908d2d"
     },
     "arm64": {
-      "url": "https://github.com/zornux/zornux/releases/download/v1.2.0/zornux-1.2.0-win-arm64.zip",
-      "hash": "32f80925f9e754314ffc7bfbd9a88c8aa3aa72559ea72d61cd15a94c1a9a1d5f"
+      "url": "https://github.com/zornux/zornux-dist/releases/download/v1.2.0/zornux-1.2.0-win-arm64.zip",
+      "hash": "586e7e3b5def912be7d54d59473b46f3ccbcbd73576e37044ce7eb569f512bd2"
     }
   },
   "bin": "zornux.exe",
   "checkver": {
-    "github": "https://github.com/zornux/zornux"
+    "github": "https://github.com/zornux/zornux-dist"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/zornux/zornux/releases/download/v$version/zornux-$version-win-x64.zip"
+        "url": "https://github.com/zornux/zornux-dist/releases/download/v$version/zornux-$version-win-x64.zip"
       },
       "arm64": {
-        "url": "https://github.com/zornux/zornux/releases/download/v$version/zornux-$version-win-arm64.zip"
+        "url": "https://github.com/zornux/zornux-dist/releases/download/v$version/zornux-$version-win-arm64.zip"
       }
     }
   }
