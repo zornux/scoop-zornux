@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/zornux/zornux-dist/releases/download/v1.3.0/zornux-1.3.0-win-x64.zip",
-      "hash": "85dfc47b4d4be91749e812184d44e565a0e0e01a258245d16396a81cbd5ded69"
+      "hash": "63bf0ee9c622d7bd99b10c0bbb66d48b0e8a89a98db78214911372d919543b76"
     },
     "arm64": {
       "url": "https://github.com/zornux/zornux-dist/releases/download/v1.3.0/zornux-1.3.0-win-arm64.zip",
-      "hash": "51db2294b828f417b6508f148baa48d91f1c0bfcf98776964018b32a7c357cb4"
+      "hash": "0cad5cd81307233c3e023aa5a21d14ab8edca41513e9fd70d62a6911b48b9579"
     }
   },
   "bin": "zornux.exe",
